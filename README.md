@@ -4,10 +4,10 @@ My personal landing page
 # PORTFOLIO
 
 - This project refers to my personal portfolio.
-- My goal with this project was:
+- My goal with this project is:
     - Introduce myself
-    - List my projects
-    - Provide forms of contact
+    - Show my projects
+    - Inform my contacts
     - Demonstrate Hardskills
 
 </br>
