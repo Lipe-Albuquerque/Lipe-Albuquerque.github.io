@@ -6,7 +6,15 @@
 a {
   color: black;
   text-decoration: none;
-  transition: 0.3s;
+  transition: 0.4s;
+}
+
+.section{
+  transition: all;
+}
+
+#about:checked ~ .section{
+margin-top: vh;
 }
 
 a:hover {
@@ -20,7 +28,10 @@ a:hover {
 }
 
 nav {
+
   display: flex;
+  position: fixed;
+  width: 100%;
   justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
@@ -143,7 +154,7 @@ header .menu-line {
 */
 .container {
   display: flex;
-  height: calc(100vh - 78px);
+  height: calc(100vh);
 }
 
 .container .info {
