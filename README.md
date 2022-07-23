@@ -1,18 +1,10 @@
-# Lipe-Albuquerque.github.io
-My personal landing page
+# Responsive Portfolio Website
+## Responsive Portfolio Website
 
-# PORTFOLIO
+- Responsive Personal Portfolio Website Using HTML CSS & JavaScript
+- Smooth scrolling in each section.
+- Includes a light and dark mode.
+- Developed first with the Mobile First methodology, then for desktop.
+- Compatible with all mobile devices and with a beautiful and pleasant user interface.
 
-- This project refers to my personal portfolio.
-- My goal with this project is:
-    - Introduce myself
-    - Show my projects
-    - Inform my contacts
-    - Demonstrate Hardskills
 
-</br>
-
-- The project was developed with:
-    - HTML
-     - CSS
-    - Javascript
