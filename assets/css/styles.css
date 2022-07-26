@@ -195,7 +195,10 @@ img {
 .nav__log,
 .nav__toggle {
   color: var(--title-color);
-  font-weight: var(--font-medium);
+  font-weight: 400;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+
 }
 
 .nav__link {
@@ -497,7 +500,7 @@ img {
   font-weight: var(--font-medium);
 }
 
-.skills__bar,
+/* .skills__bar,
 .skills__percentage {
   height: 5px;
   border-radius: 0.25rem;
@@ -510,7 +513,7 @@ img {
 .skills__percentage {
   display: block;
   background-color: var(--first-color);
-}
+} */
 
 /*==================== percentagens ====================*/
 /*==================== beckend ====================*/
