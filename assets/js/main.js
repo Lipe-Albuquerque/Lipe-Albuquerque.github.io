@@ -100,7 +100,18 @@ let swiper = new Swiper(".portfolio__container", {
    
   });
 
+/*============================ EMAIL SECTION  =============================*/
 
+function sendEmail() {
+    let contactName = document.getElementById('contact_name').value;
+    let contactEmail = document.getElementById('contact_email').value;
+    let contactSubject = document.getElementById('contact_subject').value;
+    let contactMessage = document.getElementById('contact_message').value;
+    contactMessage.replace(/ /g, "+");
+    let anchor = document.getElementById('button-send');
+    
+    anchor.href = `https://mail.google.com/mail/u/0/?fs=1&to=dev.filipe.albuquerque@gmail.com&su=${contactName}+${contactSubject}&body=${contactMessage}+%0DAtt+${contactName}+${"-"}+${contactEmail}&tf=cm`;
+};
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]')
